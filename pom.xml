@@ -329,8 +329,6 @@
         <module>integration</module>
         <module>admin</module>
     </modules>
-    <dependencies>
-    </dependencies>
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
@@ -421,7 +419,7 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
+        <!-- <profile>
             <id>sources</id>
             <distributionManagement>
                 <snapshotRepository>
@@ -454,7 +452,7 @@
                     </plugin>
                 </plugins>
             </build>
-        </profile>
+        </profile> -->
     </profiles>
     <dependencyManagement>
         <dependencies>
@@ -950,8 +948,6 @@
                 <artifactId>solr-solrj</artifactId>
                 <groupId>org.apache.solr</groupId>
                 <version>4.10.3</version>
-                <type>jar</type>
-                <scope>compile</scope>
                 <exclusions>
                     <!-- This brings in a very old version of Woodstox, we are manually including this above, next to the
                         Jackson dependencies -->
@@ -1466,6 +1462,14 @@
                 <groupId>com.yahoo.platform.yui</groupId>
                 <artifactId>yuicompressor</artifactId>
                 <version>2.4.7</version>
+            </dependency>
+
+
+
+            <dependency>
+            	<groupId>org.apache.tiles</groupId>
+            	<artifactId>tiles-extras</artifactId>
+            	<version>3.0.7</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
