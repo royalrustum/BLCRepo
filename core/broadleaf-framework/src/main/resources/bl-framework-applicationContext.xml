@@ -152,14 +152,14 @@
     <bean id="blPassthroughPaymentConfigurationServiceList" class="org.springframework.beans.factory.config.ListFactoryBean" >
         <property name="sourceList">
             <list>
-                <ref bean="blPassthroughPaymentConfigurationService"/>
+                <!-- <ref bean="blPassthroughPaymentConfigurationService"/> -->
             </list>
         </property>
     </bean>
 
     <bean class="org.broadleafcommerce.common.extensibility.context.merge.LateStageMergeBeanPostProcessor">
-        <property name="collectionRef" value="blPassthroughPaymentConfigurationServiceList"/>
-        <property name="targetRef" value="blPaymentGatewayConfigurationServices"/>
+       <!--  <property name="collectionRef" value="blPassthroughPaymentConfigurationServiceList"/> -->
+       <!--  <property name="targetRef" value="blPaymentGatewayConfigurationServices"/> -->
     </bean>
 
     <bean class="org.broadleafcommerce.core.search.service.solr.FileSystemSolrIndexStatusProviderImpl" name="blFileSystemSolrIndexStatusProvider"/>
