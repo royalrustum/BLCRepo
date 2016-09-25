@@ -30,6 +30,7 @@
            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
     <context:component-scan base-package="org.broadleafcommerce.common"/>
+    <context:component-scan base-package="org.broadleafcommerce.common.util"/>
     
     <!-- Override Spring's default ApplicationEventMultiCaster with one that is a little smarter about asynchronous -->
     <bean id="applicationEventMulticaster" class="org.broadleafcommerce.common.event.BroadleafApplicationEventMulticaster"/>
