@@ -395,7 +395,7 @@
 
 		<!-- Added by Kiran -->
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
 		</dependency>
@@ -403,7 +403,7 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjtools</artifactId>
-		</dependency>
+		</dependency> -->
 
 		<!-- <dependency>
 			<groupId>cglib</groupId>
