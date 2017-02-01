@@ -403,9 +403,9 @@
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjtools</artifactId>
-		</dependency> -->
+		</dependency>
 
-		<!-- <dependency>
+		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib</artifactId>
 		</dependency> -->
